@@ -55,8 +55,8 @@ export const useStyle = (w : number, h : number, scale : number) => {
         squareStyle() : CSSProperties {
             const width : string = `${size}px`
             const height : string = `${size}px`
-            const top = `${w / 2 - size / 2}px`
-            const left = `${h / 2 - size / 2 - (h / 2 - size) * sf}px`
+            const left = `${w / 2 - size / 2}px`
+            const top = `${h / 2 - size / 2 - (h / 2 - size) * sf}px`
             return {
                 position, 
                 width,
