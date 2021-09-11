@@ -1,7 +1,6 @@
 import React from 'react'
 import withContext from './withContext'
 import {useStyle} from './hooks'
-
 interface SURLProps {
     w : number, 
     h : number, 
@@ -27,5 +26,5 @@ const SquareUpRectLeft = (props : SURLProps) => {
     )
 }
 
-export default SquareUpRectLeft
+export default withContext(SquareUpRectLeft)
 
